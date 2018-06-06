@@ -1,0 +1,38 @@
+{
+  "name": "release-version-tools",
+  "version": "1.0.0",
+  "description": "Learn about Github Project, Github bots, versioning, release, deploy and CI tools.",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next -p 9000",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilobjr/release-version-tools.git"
+  },
+  "keywords": [
+    "React",
+    "Next"
+  ],
+  "author": "Danilo Barros <danilobjr@gmail.com> (http://danilobjr.github.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danilobjr/release-version-tools/issues"
+  },
+  "homepage": "https://github.com/danilobjr/release-version-tools#readme",
+  "dependencies": {
+    "next": "6.0.3",
+    "react": "16.4.0",
+    "react-dom": "16.4.0"
+  },
+  "devDependencies": {
+    "@types/next": "2.4.11",
+    "@types/react": "16.3.16",
+    "@zeit/next-sass": "0.2.0",
+    "@zeit/next-typescript": "1.0.1",
+    "node-sass": "4.9.0"
+  }
+}
