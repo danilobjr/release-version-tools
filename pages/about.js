@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import '../styles/pages/index.scss';
+import '../styles/pages/about.scss';
 
 export default () => (
   <div>
@@ -14,6 +14,6 @@ export default () => (
     <Link href="/about">
       <a>About</a>
     </Link>
-    <h1 className="text-red">Home</h1>
+    <h1 className="text-green">About</h1>
   </div>
 );
